@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>17 - Vetor</title>
+    <!-- Comentário HTML - JS -->
+    <script>
+      // vetor
+      var cores = ["Azul", "Verde", "Amarelo"];
+      //   document.write(cores);
+      //   console.log(cores);
+
+      // Exibir informação de uma determinada posição
+      //   document.write(cores[1]);
+
+      //   Exibir a qtd de cores
+      //   document.write(cores.length);
+
+      // Adicionar
+      cores.push("Vermelho");
+      // Alterar
+      cores[0] = "Rosa";
+      // Excluir
+      cores.splice(2, 1);
+
+      // listando cores
+      for (let index = 0; index < cores.length; index++) {
+        document.write(cores[index] + "<br>");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
